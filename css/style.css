@@ -128,6 +128,7 @@ a{
     border: unset;
     padding: 16px 32px;
     display: inline-flex;
+    cursor:pointer;
 }
 
 .main-caption-button:hover,
@@ -203,6 +204,7 @@ background-color:var(--cloudcolor);
 outline:unset;
 border: 1px solid var(--cornflowercolor);
 border-radius: 4px;
+cursor:pointer;
 }
 
 .solutions-filter-list-item-button-all{
