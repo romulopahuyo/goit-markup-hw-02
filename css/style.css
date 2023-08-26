@@ -95,7 +95,7 @@ a{
 .address-list-item:hover,
  .address-list-item:focus{
     color: var(--oceancolor);
-    text-decoration:underline;
+    
 }
 
 
