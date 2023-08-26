@@ -23,7 +23,7 @@
 
 
 body{
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:16px;
     font-weight:400;
     line-height: 24px;
@@ -68,19 +68,19 @@ a{
 
 
 .nav-list{
-    font-family: 'Roboto';
+    font-family:inherit;
     font-size:16px;
     font-weight:500;
     line-height: 24px;
     color: var(--navyblue);
     text-decoration:none;
-    letter-spacing:0.32;
+    letter-spacing:0.32px;
 }
 
 .nav-list:hover,
  .nav-list:focus{
     color: var(--oceancolor);
-    text-decoration:underline;
+    
 }
 
 
@@ -116,7 +116,7 @@ a{
 }
 
 .main-caption-button{
-    font-family: 'Roboto';
+    font-family:inherit;
     font-size:16px;
     font-weight:500;
     line-height: 24px;
@@ -129,11 +129,15 @@ a{
     padding: 16px 32px;
     display: inline-flex;
     cursor:pointer;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 
 .main-caption-button:hover,
 .main-caption-button:focus{
     background-color: var(--oceancolor);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; 
 
 }
 
@@ -193,7 +197,7 @@ align-items: center;
 .solutions-filter-list-item-button-all {
     /* Portfolio Button Text */
 color: var(--iriscolor); 
-font-family: Roboto;
+font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -211,4 +215,19 @@ cursor:pointer;
 color: var(--whitecolor); 
 background-color:var(--oceancolor);
 border: unset;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 
+0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+ 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.solutions-filter-list-item-button:hover{
+    color:var(--whitecolor);
+    background-color: var(--oceancolor);
+    border-color: var(--oceancolor) ;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+    0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+
+
 }
