@@ -150,8 +150,8 @@ a{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
 }
 
-.main-caption-button:hover,
-.main-caption-button:focus{
+.hero-button:hover,
+.hero-button:focus{
     background-color: var(--oceancolor);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
     border-radius: 4px; 
